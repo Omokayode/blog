@@ -1,0 +1,184 @@
+
+html{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+ body{
+	padding: 20px;
+	
+}
+
+.container{
+	background-color: white;
+	padding: 10px;
+	margin: auto;
+	width: 800px;
+}
+.header{
+	padding: 10px;
+	margin: auto;
+	width: 800px;
+}
+
+.head{
+	font-weight: bold;
+color: #2856C3;
+	font-size: 30px;
+/*	text-align: center;
+*/}
+.italic{
+/*font-family: cursive;*/
+color: red;
+margin-top:-20px;
+	/*text-align: center;*/
+
+}
+nav{
+	margin-left: 150px;
+}
+nav li{
+	list-style-type: none;
+		display: inline;
+		padding: 0px 15px 0px 15px; 
+		   /* border-top: 1px solid #d9d9d9;*/
+}
+ a{
+	text-decoration: none;
+}
+nav a:hover{
+	opacity: 0.5;
+}
+/*.btn{
+	color: blue;
+	padding: 5px;
+	display: inline-block;
+}*/
+.dropdown{
+	display: inline;
+}
+.dropdown:hover .dropcontent {
+    display: block;
+}
+.dropcontent a {
+	display: block;
+}
+.dropcontent{
+	display: none;
+	position: absolute;
+	/*min-width: 50px;*/
+	    background-color: #d3d3d3;
+	/*text-align: left;*/
+}
+.dropcontent a{
+	text-decoration: none;
+}
+.dropcontent a:hover{
+		opacity: 0.5;
+}
+.content{
+	margin: auto;
+	width: 800px;
+}
+h3{
+	/*color: blue;*/
+	/*text-align: center;*/
+}
+h2{
+	/*text-align:center;*/
+	font-size: 20px;
+	/*border: 1px solid black;*/
+		font-family: sans-serif;
+}
+.content img{
+	width:250px;
+	height: 200px;
+}
+.about{
+	padding: 20px;
+	
+}
+.about h2{
+	text-align: center;
+}
+.section{
+
+}
+
+
+
+/*The other css*/
+
+
+.container{
+	background-color: white;
+	padding: 10px;
+}
+.myForm {
+
+font-size: 0.8em;
+width: 800px;
+padding: 1em;
+/*border: 1px solid #ccc;*/
+margin: auto;
+background-color: #f0f0f0;
+}
+
+/*.myForm{
+box-sizing: border-box;
+}*/
+
+.myForm fieldset {
+border: none;
+padding: 0;
+}
+.section_b legend{
+	text-align: center;
+}
+.myForm legend,
+.myForm p{
+	padding: 0;
+	font-weight: bold;
+}
+.myForm label {
+	padding: 0;
+}
+
+.myForm label.choice {
+font-size: 0.9em;
+font-weight: normal;
+}
+
+.myForm input[type="text"],
+.myForm input[type="tel"],
+.myForm input[type="email"],
+.myForm input[type="datetime-local"],
+.myForm select,
+.myForm textarea {
+display: block;
+width: 100%;
+border: 1px solid #ccc;
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 0.9em;
+padding: 0.3em;
+}
+
+.myForm textarea {
+height: 100px;
+}
+
+.myForm button {
+padding: 1em;
+border-radius: 0.5em;
+background: #eee;
+border: none;
+font-weight: bold;
+margin-top: 1em;
+}
+
+.myForm button:hover {
+background: #ccc;
+cursor: pointer;
+}
+.form .content{
+	width: 500px;
+}
+
