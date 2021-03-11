@@ -1,0 +1,209 @@
+<html>
+<head>
+<title> The Band </title>
+<link rel="stylesheet" href="band.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<style>
+/*carousel styling*/
+.carousel{
+	height:900px;
+	width:1800px;
+	margin:auto;
+}
+.slide1{
+	background-image: url('chicago.jpg');
+	height: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide2{
+	background-image: url('la.jpg');
+	height: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.slide3{
+	background-image: url('ny.jpg');
+	height: 900px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.carousel-caption h2{
+	font-size: 3.4em;
+	font-family: 'Pacifico',cursive;
+	padding-bottom: .4em;
+}
+.carousel-caption p{
+	font-size: 2em;
+}
+a{
+color: white;
+}
+</style>
+</head>
+
+<body>
+<ul class=" list-inline">
+<li><a href="#">HOME</a></li>
+<li><a href="#">BAND</a> </li>
+<li><a href="#">TOUR</a></li>
+<li><a href="#">CONTACT</a></li>
+<li><a href="#">MORE</a></li>
+</ul>
+
+
+<!-- The Carousel-->
+	<div id="theCarousel" class="carousel slide" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#theCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#theCarousel" data-slide-to="1"></li>
+			<li data-target="#theCarousel" data-slide-to="2"></li>
+		</ol>
+	<div class="carousel-inner">
+		<div class="item active">
+		<div class="slide1"></div>
+		<div class="carousel-caption">
+			<h2>Awesome Band</h2>
+			<p>Thousand of tickets for free</p>
+			<p><a href="#" class="btn btn-primary btn-sm">Buy Tickets Now</a></p>
+
+		</div>
+
+	</div>
+	<div class="item">
+		<div class="slide2"></div>
+		<div class="carousel-caption">
+			<h1>Awesome Band</h1>
+			<p>Thousand of tickets for free</p>
+			<p><a href="#" class="btn btn-primary btn-sm">Buy Tickets Now</a></p>
+
+		</div>
+
+	</div>
+	<div class="item">
+		<div class="slide3"></div>
+		<div class="carousel-caption">
+			<h1>Live in Newyork</h1>
+			<p>Limited tickets</p>
+			<p><a href="#" class="btn btn-primary btn-sm">Buy Tickets Now</a></p>
+
+		</div>
+
+	</div>
+	</div>
+<a  class="left carousel-control" href="#theCarousel" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span></a>
+<a  class="right carousel-control" href="#theCarousel" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span></a>
+
+</div>
+
+
+<!--The end of Carousel-->
+
+<div class="band">
+<h2>THE BAND</h2>
+<p><i>We love music</i></p>
+<p>Welcome to our band website. 
+We Thank you for Visiting here Today and for alway been
+with us all the way. There are a whole lot of new things 
+you can now do on the website.
+</p>
+</div>
+
+<div class="members">
+	<div class="mem1">
+		<p>Member<p>
+		<img src="bandmember.jpg"/>
+	</div>
+	<div class="mem2">
+		<p>Member<p>
+		<img src="bandmember.jpg"/>
+	</div>
+	<div class="mem3">
+	   <p>Member<p>
+	  <img src="bandmember.jpg"/>
+	</div>
+</div>
+
+
+
+			<!--tour section-->
+	<div class="tour">
+		<h2>TOUR DATES</h2>
+		<p><i>Remember to book your tickets!</i></p>
+		<ul>
+		<li>September
+		<span class="right"> Sold Out</span></li>
+		<li>October
+		<span class="right"> Sold Out</span></li>
+		<li>November
+		<span class="badge">5</span></li>
+		</ul>
+	</div>
+
+
+		<div class="content">
+	<div class="black">
+		<div class="newyork">
+			<img  class="paque" src="newyork.jpg"/>
+			<div class="paragraph">
+				<p><b>New York</b></p>
+				<p class="opaque">Fri 27 Nov 2016</p>
+				<p>Praesent tincclassunt sed tellus ut rutrum sed vitae justo</p>
+			<button class="buy">Buy Tickets</button>
+		</div>
+		</div>
+
+		<div class="paris">
+			<img  class="paque" src="paris.jpg"/>
+			<div class="paragraph">
+			<p><b>Paris</b></p>
+			<p class="opaque">Fri 27 Nov 2016</p>
+			<p>Praesent tincclassunt sed tellus ut rutrum sed vitae justo</p>
+			<button class="buy">Buy Tickets</button>
+		</div>
+		</div>
+
+		<div class="sanfrancisco">
+			<img class="paque" src="sanfrancisco.jpg"/>
+			<div class="paragraph">
+				<p><b>San Francisco</b></p>
+					<p class="opaque">Fri 27 Nov 2016</p>
+					<p>Praesent tincclassunt sed tellus ut rutrum sed vitae justo</p>
+		<button class="buy">Buy Tickets</button>
+			</div>
+		</div>
+	</div>
+
+</div>
+<!--End of content-->
+<div class="contact">
+		<h2>CONTACT</h2>
+		<p><i>Fan? Drop a note!</i></p>
+
+	<div class="info">
+		<br></br>
+		<div class="row">
+		Chicago,US<br></br>
+		Phone: +00 15151515<br></br>
+		Email:mail@mail.com<br></br>
+	</div>
+
+	<div class="text-area">
+
+		<div class="half">
+			<input class="input" type="text" placeholder="Name"></input>
+		</div>
+		<div class="half">
+			<input class="input " type="text" placeholder="Email"></input>
+		</div>
+			<input class="input comment" type="text" placeholder="Comment"></input>			<button class="send">SEND</button>
+	</div>
+</div>
+</body>
+	</html>
